@@ -2,7 +2,7 @@
 
 NeurWall is an open-source firewall operating system built on Alpine Linux. Its goal is to do more than block traffic: over time, it should observe network behavior, learn what is normal, adapt firewall rules automatically, and explain its decisions in plain English. The system is local-first, with the OS, enforcement path, backend services, and operator interface all running on the device rather than depending on a cloud control plane.
 
-## Purpose Of This Document
+## Purpose Of This Document #
 
 This is the top-level architecture for contributors. It describes the major system layers, the delivery phases, and the boundary between the operating system layer and the application stack that runs on top of it.
 
